@@ -174,8 +174,8 @@ export default {
 
 <style scoped>
 #nav a.router-link-exact-active {
-	color: #4c51bf; /* text-indigo-700 */
-	color: #a3bffa; /* dark:text-indigo-400 */
-	font-weight: 500; /* font-medium */
+	color: theme('colors.indigo.700');
+	color: theme('colors.indigo.400', 'dark');
+	font-weight: theme('fontWeight.medium');
 }
 </style>
